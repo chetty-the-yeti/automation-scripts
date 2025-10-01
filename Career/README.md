@@ -1,12 +1,16 @@
 # Utility Scripts
 
 > **Note:** All scripts in this repository have been reviewed and sanitized to remove any sensitive or personal information prior to sharing.  
-> These examples demonstrate scripting and automation skills developed through Systems Engineering work.
+> These examples demonstrate scripting and automation skills developed through Cloud and Systems Engineering work, with a focus on PowerShell automation, runbooks, and AWS/Azure environments.
 
-A collection of scripts for automating common system tasks, including backups, file management, and general automation.
+A collection of scripts for automating common system tasks, cloud operations, and infrastructure management.  
+Many examples are PowerShell scripts and runbooks used in production for AWS and Azure automation.
 
 ## What’s Inside
 
+- **PowerShell Automation** – Scripts for system management, cloud automation, and operational tasks.
+- **Runbooks** – Automated workflows for incident response and routine operations.
+- **AWS & Azure Scripts** – Examples for cloud resource management and automation.
 - **Backup Scripts** – Automate data backup tasks.
 - **File Management Scripts** – Sort, rename, and clean files.
 - **System Automation** – Automate routine system operations.
