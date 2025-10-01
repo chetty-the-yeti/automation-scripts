@@ -1,4 +1,4 @@
-# Homelab Utility Scripts
+# Homelab Scripts
 
 > **Note:** All scripts in this repository have been reviewed and sanitized to remove any sensitive or personal information prior to sharing.
 
