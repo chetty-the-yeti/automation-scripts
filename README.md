@@ -35,4 +35,4 @@ Suggestions and improvements are welcome. Feel free to open a pull request.
 
 ## Disclaimer
 
-These scripts are provided as-is. Use at your own risk.
+These scripts are provided as-is. Use at your own risk!
