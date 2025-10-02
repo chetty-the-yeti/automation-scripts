@@ -1,6 +1,11 @@
 # Azure Automation Runbooks
 
-This repository contains a collection of PowerShell runbooks designed for use with Azure Automation Accounts and Hybrid Workers. These scripts automate common IT operations tasks for Active Directory and Microsoft Entra ID (Azure AD), including user account lifecycle management, group membership cleanup, device cleanup, and credential expiry monitoring.
+This repository contains a collection of PowerShell runbooks designed for use with Azure Automation Accounts and Hybrid Workers.  
+**Note:** These scripts were originally developed as standalone PowerShell scripts running on a dedicated VM. They have since been migrated and modernized to run as Azure Automation Runbooks, utilizing Microsoft Graph API and Automation Account variables for secure, scalable, and cloud-native automation of traditional IT operations.
+
+Some scripts utilize **Hybrid Workers**, which allow Azure Automation to execute runbooks on machines in your own datacenter or network. This enables automation of tasks that require access to on-premises resources, such as Active Directory, file shares, or other internal systems.
+
+These scripts automate common IT operations tasks for Active Directory and Microsoft Entra ID (Azure AD), including user account lifecycle management, group membership cleanup, device cleanup, and credential expiry monitoring.
 
 ## Overview
 
@@ -35,6 +40,7 @@ Azure Automation enables organizations to automate repetitive tasks, orchestrate
 ## Usage
 
 - These scripts are intended for use in Azure Automation Accounts and may require Hybrid Worker configuration for on-premises Active Directory access.
+- Hybrid Workers allow runbooks to interact with resources inside your network that are not directly accessible from Azure.
 - Authentication is handled via Azure Automation variables and Microsoft Graph API.
 - All email notifications are sent using Microsoft Graph, with recipient addresses configurable in each script.
 
