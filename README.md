@@ -1,4 +1,4 @@
-# Automation Scripts
+# Homelab Scripts
 
 > **Note:** This repository is a sanitized clone of my private automation scripts repo. All sensitive or personal information has been removed prior to publishing for public view.  
 > These scripts showcase my scripting and automation skills developed through Systems Engineering work.
