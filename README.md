@@ -1,7 +1,7 @@
 # automation Scripts
 
 > **Note:** This repository is a sanitized clone of my private automation scripts repo. All sensitive or personal information has been removed prior to publishing for public view.  
-> These scripts showcase my scripting and automation skills developed through Systems Engineering work.
+> These scripts showcase my scripting and automation skills developed through Homelab, Cloud and Systems Engineering work.
 
 Inside this repository, you will find a variety of automation scripts, including examples from professional work environments as well as home lab projects.  
 These scripts demonstrate practical solutions for automating system tasks, managing files, performing backups, and more.
